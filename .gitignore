@@ -1,0 +1,23 @@
+echo "
+# Binaries
+/eosda-satellite
+*.exe
+*.out
+*.test
+
+# Go modules
+vendor/
+go.sum
+go.mod~
+
+# Logs
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+
+# Config files
+.env
+config.yaml
+" > .gitignore
